@@ -18,10 +18,20 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      rgb(var(--background-end-rgb,255,255,255))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb,255,255,220)); */
 }
+
+@font-face {
+  font-family: Burtons;
+  src: url("../../public/Burtons.otf");
+}
+
+/* styles.css */
+
+
+
