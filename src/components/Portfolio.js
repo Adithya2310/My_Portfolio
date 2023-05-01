@@ -22,10 +22,10 @@ const Portfolio = () => {
                   <h3 className='text-3xl font-bold text-white'>Ecommerce Webapp</h3>
                   <p className='mt-2 text-gray-200'>A react ecommerce website Deer Store inspired by ReinDeers which are known for thier adaptable nature and resilience. This website aims at creating a hassle free experience for users to buy electronics using technologies like Context API, React and Axios along with features like Product Filters and User Authentication.</p>
                   <div className='flex justify-evenly my-5 gap-10'>
-                    <Link href="/">
+                    <Link href="https://github.com/Adithya2310/Complete_Ecommerce_Website">
                       <button className=' cursor-pointer rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60'>Code</button>
                     </Link>
-                    <Link href="/">
+                    <Link href="https://deerstore.vercel.app/">
                       <button className=' cursor-pointer rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60'>Live</button>
                     </Link>
                   </div>
@@ -39,8 +39,8 @@ const Portfolio = () => {
                   <h3 className='text-3xl font-bold text-white'>MovieFlix WebApp</h3>
                   <p className='mt-2 text-gray-200'>A web app that is a movie discovery platform utilizing Next.js to provide a fast and seamless user experience. It is integrated with the Netflix API through RapidAPI to fetch data on the latest and most popular movies available on the streaming platform. </p>
                   <div className='flex justify-evenly my-5 gap-10'>
-                    <Link href="/">
-                      <button className=' cursor-pointer rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 hover:bg-transparent hover:bg-black'>Code</button>
+                    <Link href="https://github.com/Adithya2310/Movie_Flix">
+                      <button className=' cursor-pointer rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 hover:bg-black'>Code</button>
                     </Link>
                     <Link href="/">
                       <button className=' cursor-pointer rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 hover:bg-black '>Live</button>
@@ -56,10 +56,10 @@ const Portfolio = () => {
                   <h3 className='text-3xl font-bold text-white'>SpeachToText Converter</h3>
                   <p className='mt-2 text-gray-200'>An WebApp that provides users with the ability to convert spoken words into written text with ease. This app is designed to allow users to speak into a microphone, and the app will transcribe their speech into text format in real-time</p>
                   <div className='flex justify-evenly my-5 gap-10'>
-                    <Link href="/">
-                      <button className=' cursor-pointer rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 hover:bg-transparent hover:bg-black'>Code</button>
+                    <Link href="https://github.com/Adithya2310/SpeachToText">
+                      <button className=' cursor-pointer rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 hover:bg-black'>Code</button>
                     </Link>
-                    <Link href="/">
+                    <Link href="https://speachconvertion.netlify.app/">
                       <button className=' cursor-pointer rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60 hover:bg-black '>Live</button>
                     </Link>
                   </div>
