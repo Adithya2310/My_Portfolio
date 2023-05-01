@@ -10,7 +10,7 @@ const Navbar = ({darkMode,setdarkMode}) => {
     <ul className='flex align-middle'>
       <li><BsMoonStarsFill onClick={()=>setdarkMode(!darkMode)} className='mt-3 cursor-pointer font-burtons' size={23}/></li>
       <li className='ml-10 px-4 py-2 rounded-md bg-gradient-to-r from-cyan-500 to-teal-500 cursor-pointer'>
-      <a href="">Resume</a> </li>
+      <a href="https://drive.google.com/drive/u/0/my-drive">Resume</a> </li>
     </ul>
   </nav></div>
   )
