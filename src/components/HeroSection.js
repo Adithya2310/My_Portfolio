@@ -5,9 +5,9 @@ import HeroImg from './HeroImg'
 
 const HeroSection = () => {
   return (
-    <section className='mx-20 my-20'>
+    <section className='lg:mx-20 mx-10 my-20'>
     <div className='text text-center'>
-       <h1 className='mt-10 mb-8 font-semibold text-teal-500 text-5xl  lg:text-6xl'>
+       <h1 className='mt-10 mb-8 font-semibold text-teal-500 text-4xl  lg:text-6xl'>
             Adithya N G
         </h1>
         <h2 className='text-2xl font-medium my-3 m font-normal md:text-3xl lg:pb-5'>

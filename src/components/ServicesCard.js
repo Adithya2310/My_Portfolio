@@ -11,7 +11,7 @@ const ServicesCard = ({img,h3,p,h4,n1,n2,n3}) => {
     </div>
         <div className='dark:text-black'>
         <h3 className=' text-lg font-medium mt-4 mb-2' >{h3}</h3>
-        <p className='mt-5 px-20 lg:px-0 leading-7'>{p}</p>
+        <p className='mt-5 lg:px-0 leading-7'>{p}</p>
         <h4 className='py-3 text-gray-700'>{h4}</h4>
         <p className=' text-teal-500'>{n1}</p>
         <p className=' text-teal-500'>{n2}</p>
