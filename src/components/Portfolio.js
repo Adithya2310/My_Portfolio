@@ -28,7 +28,7 @@ const Portfolio = () => {
                 title="MovieFlix WebApp"
                 description="A web app that is a movie discovery platform utilizing Next.js to provide a fast and seamless user experience. It is integrated with the Netflix API through RapidAPI to fetch data on the latest and most popular movies available on the streaming platform. "
                 codeLink="https://github.com/Adithya2310/Movie_Flix"
-                liveLink="/"
+                liveLink="https://movie-flix-rho.vercel.app/"
                 pic={pic2}
               />
               {/* portfolio3 */}
@@ -39,7 +39,6 @@ const Portfolio = () => {
                 liveLink="https://speachconvertion.netlify.app/"
                 pic={pic1}
               />
-              
             </div>
         </div>
     </section>
