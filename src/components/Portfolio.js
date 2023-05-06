@@ -3,6 +3,7 @@ import Image from 'next/image'
 import pic1 from "../../public/portfolio1.png"
 import pic2 from "../../public/portfolio3.png"
 import pic3 from "../../public/portfolio2.png"
+import pic4 from "../../public/portfolio4.png"
 import Link from 'next/link'
 import PortfolioCard from './PortfolioCard'
 
@@ -33,11 +34,19 @@ const Portfolio = () => {
               />
               {/* portfolio3 */}
               <PortfolioCard 
+                title="Your Diary"
+                description="A Diary app where you u can maintain all your daily journals at one place Using Node, Express in the backend and EJS for the Front part. It also uses MongoDB to store the User Data along with User Authentication with Hashing and Salting of the passwords to secure the user data."
+                codeLink="https://github.com/Adithya2310/DairyApp"
+                liveLink="https://your-diary.cyclic.app/"
+                pic={pic4}
+              />
+              {/* portfolio4 */}
+              <PortfolioCard 
                 title="SpeachToText Converter"
                 description="An WebApp that provides users with the ability to convert spoken words into written text with ease. This app is designed to allow users to speak into a microphone, and the app will transcribe their speech into text format in real-time"
                 codeLink="https://github.com/Adithya2310/SpeachToText"
                 liveLink="https://speachconvertion.netlify.app/"
-                pic={pic1}
+                pic={pic3}
               />
             </div>
         </div>
