@@ -34,19 +34,19 @@ const Portfolio = () => {
               />
               {/* portfolio3 */}
               <PortfolioCard 
+                title="ATGGlobalPage"
+                description="Creating a Reactive Home page for ATG Global using NextJs and Bootstrap. It consists of a NavBar,HeroSection,Articles Section and Discover Section"
+                codeLink="https://github.com/Adithya2310/ATGGlobalHomePage"
+                liveLink="https://task-woad-xi.vercel.app/"
+                pic={pic3}
+              />
+              {/* portfolio4 */}
+              <PortfolioCard 
                 title="Your Diary"
                 description="A Diary app where you u can maintain all your daily journals at one place Using Node, Express in the backend and EJS for the Front part. It also uses MongoDB to store the User Data along with User Authentication with Hashing and Salting of the passwords to secure the user data."
                 codeLink="https://github.com/Adithya2310/DairyApp"
                 liveLink="https://your-diary.cyclic.app/"
                 pic={pic4}
-              />
-              {/* portfolio4 */}
-              <PortfolioCard 
-                title="SpeachToText Converter"
-                description="An WebApp that provides users with the ability to convert spoken words into written text with ease. This app is designed to allow users to speak into a microphone, and the app will transcribe their speech into text format in real-time"
-                codeLink="https://github.com/Adithya2310/SpeachToText"
-                liveLink="https://speachconvertion.netlify.app/"
-                pic={pic3}
               />
             </div>
         </div>
