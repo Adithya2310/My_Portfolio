@@ -4,7 +4,7 @@ import pic1 from "../../public/portfolio1.png"
 import pic2 from "../../public/portfolio3.png"
 import pic3 from "../../public/portfolio2.png"
 import pic4 from "../../public/portfolio4.png"
-import Link from 'next/link'
+import pic5 from "../../public/portfolio5.png"
 import PortfolioCard from './PortfolioCard'
 
 
@@ -40,13 +40,29 @@ const Portfolio = () => {
                 liveLink="https://task-woad-xi.vercel.app/"
                 pic={pic3}
               />
-              {/* portfolio4 */}
+              {/* portfolio4
               <PortfolioCard 
                 title="Your Diary"
                 description="A Diary app where you u can maintain all your daily journals at one place Using Node, Express in the backend and EJS for the Front part. It also uses MongoDB to store the User Data along with User Authentication with Hashing and Salting of the passwords to secure the user data."
                 codeLink="https://github.com/Adithya2310/DairyApp"
                 liveLink="https://your-diary.cyclic.app/"
                 pic={pic4}
+              /> */}
+              {/* portfolio5 */}
+              <PortfolioCard 
+                title="DRent"
+                description="A Decentralised renting platform solving the existing issues with tenants and owner, along with auction mechanism for price discovery for the owners. Worked in a team where I Built the entire front end for the application."
+                codeLink="https://github.com/ethindia2023-zeru/derent"
+                liveLink="https://derent-psi.vercel.app/"
+                pic={pic5}
+              />
+              {/* portfolio6 */}
+              <PortfolioCard 
+                title="BetterIDE"
+                description="An IDE Built on Arweave Blockchain for deploying and testing smart weave contracts. It also has integration with protocol land soo that you can easily store and access smart contracts developed by other developers. I built the entire front end for the application and also integration with protocol land."
+                codeLink="https://github.com/ankushKun/betterIDE"
+                liveLink="https://ankushkun.github.io/betterIDE/"
+                pic={pic5}
               />
             </div>
         </div>
