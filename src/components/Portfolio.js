@@ -5,6 +5,7 @@ import pic2 from "../../public/portfolio3.png"
 import pic3 from "../../public/portfolio2.png"
 import pic4 from "../../public/portfolio4.png"
 import pic5 from "../../public/portfolio5.png"
+import pic6 from "../../public/portfolio6.png"
 import PortfolioCard from './PortfolioCard'
 
 
@@ -62,7 +63,7 @@ const Portfolio = () => {
                 description="An IDE Built on Arweave Blockchain for deploying and testing smart weave contracts. It also has integration with protocol land soo that you can easily store and access smart contracts developed by other developers. I built the entire front end for the application and also integration with protocol land."
                 codeLink="https://github.com/ankushKun/betterIDE"
                 liveLink="https://ankushkun.github.io/betterIDE/"
-                pic={pic5}
+                pic={pic6}
               />
             </div>
         </div>
